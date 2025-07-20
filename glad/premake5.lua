@@ -1,4 +1,4 @@
-project "GLAD"
+project "glad"
 	language      "C"
 	cdialect      "C23"
 	kind          "StaticLib"

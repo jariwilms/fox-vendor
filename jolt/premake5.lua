@@ -1,4 +1,4 @@
-project "JOLT"
+project "jolt"
 	language        "C++"
 	cppdialect      "C++23"
 	kind            "StaticLib"

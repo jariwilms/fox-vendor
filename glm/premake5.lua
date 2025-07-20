@@ -1,4 +1,4 @@
-project "GLM"
+project "glm"
 	language        "C++"
 	cppdialect      "C++23"
 	kind            "StaticLib"

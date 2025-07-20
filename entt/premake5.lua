@@ -1,4 +1,4 @@
-project "ENTT"
+project "entt"
 	language        "C++"
 	cppdialect      "C++23"
 	kind            "StaticLib"

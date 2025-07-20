@@ -1,4 +1,4 @@
-project "MIMALLOC"
+project "mimalloc"
 	language      "C"
 	cdialect      "C23"
 	kind          "StaticLib"

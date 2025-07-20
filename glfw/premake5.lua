@@ -1,4 +1,4 @@
-project "GLFW"
+project "glfw"
 	language      "C"
 	cdialect      "C23"
 	kind          "StaticLib"

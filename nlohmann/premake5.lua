@@ -1,4 +1,4 @@
-project "NLOHMANN"
+project "nlohmann"
 	language        "C++"
 	cppdialect      "C++11"
 	kind            "StaticLib"

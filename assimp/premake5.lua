@@ -1,4 +1,4 @@
-project "ASSIMP"
+project "assimp"
 	language        "C++"
 	cppdialect      "C++17"
 	kind            "StaticLib"

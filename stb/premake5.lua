@@ -1,4 +1,4 @@
-project "STB"
+project "stb"
 	language      "C"
 	cdialect      "C23"
 	kind          "StaticLib"
