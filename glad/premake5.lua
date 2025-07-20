@@ -5,13 +5,10 @@ project "GLAD"
 	staticruntime "On"
 	warnings      "Off"
 	
-	includedirs
-	{
+	includedirs {
 		"include", 
 	}
-	
-	files
-	{
+	files {
 		"include/glad/gl.h", 
 		"src/gl.c", 
 	}

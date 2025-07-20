@@ -7,13 +7,10 @@ project "JOLT"
 	buildstlmodules "Off"
 	warnings        "Off"
 	
-	includedirs
-	{
+	includedirs {
 		"include", 
 	}
-	
-	files
-	{
+	files {
 		"include/**.h", 
 		"include/**.cpp", 
 		"include/**.inl", 

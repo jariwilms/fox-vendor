@@ -5,22 +5,17 @@ project "MIMALLOC"
 	staticruntime "On"
 	warnings      "Off"
 	
-	defines 
-	{
+	defines {
 		"WIN32", 
 		"_WINDOWS", 
 		
 		"MI_STATIC_LIB", 
 	}
-	
-	includedirs 
-	{
+	includedirs {
 		"include", 
 		"include/mimalloc", 
 	}
-	
-	files 
-	{
+	files {
 		"src/alloc.c", 
 		"src/alloc-aligned.c", 
 		"src/alloc-posix.c", 

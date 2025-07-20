@@ -1,6 +1,6 @@
-project "NLOHMANN"
+project "ENTT"
 	language        "C++"
-	cppdialect      "C++11"
+	cppdialect      "C++23"
 	kind            "StaticLib"
 	staticruntime   "On"
 	enablemodules   "Off"
@@ -8,9 +8,10 @@ project "NLOHMANN"
 	warnings        "Off"
 	
 	includedirs {
-		"include", 
+		"single_include", 
+		"src", 
 	}
 	files {
-		"include/nlohmann/json.hpp", 
-		"source/json.cpp", 
+		"single_include/**", 
+		"src/**", 
 	}

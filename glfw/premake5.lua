@@ -5,22 +5,18 @@ project "GLFW"
 	staticruntime "On"
 	warnings      "Off"
 	
-	includedirs
-	{
-		"./", 
-		"%{prj.name}/src", 
+	includedirs {
+		"include", 
+		"src", 
 	}
-	
-	files
-	{
-		"include/glfw/*", 
-		"src/*", 
+	files {
+		"include/**", 
+		"src/**", 
 	}
 	
 	filter "system:windows"
 		systemversion "latest"
 		
-		defines 
-		{ 
+		defines { 
 			"_GLFW_WIN32",
 		}
