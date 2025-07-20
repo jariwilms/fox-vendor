@@ -9,7 +9,11 @@ project "STB"
 		"STB_IMAGE_IMPLEMENTATION", 
 		"STB_IMAGE_WRITE_IMPLEMENTATION", 
 	}
+	includedirs {
+		"include", 
+	}
 	files {
 		"include/stb/stb_image.h", 
 		"include/stb/stb_image_write.h", 
+		"src/stb.c", 
 	}
