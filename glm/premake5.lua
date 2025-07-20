@@ -15,12 +15,12 @@ project "GLM"
 		"GLM_GTX_INLINE_NAMESPACE", 
 	}
 	includedirs {
-		"./", 
+		"include", 
 	}	
 	files {
-		"glm/**.hpp", 
-		"glm/**.cpp", 
-		"glm/**.inl", 
-		
-		"glm/**.ixx", 
+		"include/glm/**.hpp", 
+		"include/glm/**.cpp", 
+		"include/glm/**.inl", 
+
+		"include/glm/**.ixx", 
 	}
